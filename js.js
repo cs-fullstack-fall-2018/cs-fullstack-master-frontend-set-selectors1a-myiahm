@@ -4,8 +4,12 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 
 /* Give the <body> element a background of #bdc3c7*/
+var getBody = document.getElementsByTagName("body");
+getBody[0].style.backgroundColor = "blue";
 
 /* Make the <h1> element #9b59b6*/
+var getAllH1tags = document.getElementsByTagName("h1");
+getAllH1tags[0].style
 
 
 /* Make all <h2> elements orange */
@@ -26,4 +30,6 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 
 
+
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
+;
